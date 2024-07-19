@@ -25,9 +25,9 @@ const Nav = () => {
             <NavItem navItem="About" url="/About" />
             <NavItem navItem="Discussion Board" url="/discussion" />
             <NavItem navItem="Groups" url="/Groups" />
-            <NavItem navItem="News" url="#" />
-            <NavItem navItem="Referrals" url="/Referal" />
-            <NavItem navItem="Update" url="/Update" />
+            <NavItem navItem="News" url="News" />
+            <NavItem navItem="Referrals" url="/Referrals" />
+            <NavItem navItem="Update" url="/Updates" />
           </nav>
         </div>
 
@@ -52,7 +52,9 @@ const Nav = () => {
 
       <div
         className={`md:hidden bg-white flex flex-col my-2 p-4 space-y-2 transition-all duration-500 overflow-y-scroll no-scrollbar ${
-          isMobileMenuOpen ? "max-h-[50vh] opacity-100 visible" : "max-h-0 opacity-0 invisible"
+          isMobileMenuOpen
+            ? "max-h-[50vh] opacity-100 visible"
+            : "max-h-0 opacity-0 invisible"
         }`}
       >
         <NavItem navItem="About" url="/About" />
@@ -62,8 +64,13 @@ const Nav = () => {
         <NavItem navItem="Referrals" url="/Referrals" />
         <NavItem navItem="Update" url="/Updates" />
         <div className="flex flex-col space-y-2">
-          <Link href="/auth/login"  className="mb-2 text-md">Sign In</Link>
-          <Link href="/auth/signup" className="mb-2 text-sm rounded p-3 bg-primary text-white">
+          <Link href="/auth/login" className="mb-2 text-md">
+            Sign In
+          </Link>
+          <Link
+            href="/auth/signup"
+            className="mb-2 text-sm rounded p-3 bg-primary text-white"
+          >
             Sign Up
           </Link>
         </div>

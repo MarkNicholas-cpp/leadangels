@@ -166,7 +166,7 @@ function About() {
             committed to delivering exceptional financial solutions and
             personalized client service.
           </p>
-          <div className="grid grid-cols-2 md:grid-col-4 my-20">
+          <div className="grid grid-cols-2 md:grid-cols-4 my-20">
             {members.map((member, index) => (
               <div className="m-2" key={index}>
                 <MemberCard
