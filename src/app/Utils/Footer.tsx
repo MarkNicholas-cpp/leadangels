@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
   return (
     <div className="bg-slate-100 p-10">
@@ -6,130 +8,199 @@ function Footer() {
           <p className="heading font-bold text-primary">Get Started</p>
           <ul>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Sign Up
+              <Link href="/auth/login" className="">
+                Sign Up
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Sign In
+              <Link href="/auth/signup" className="">
+                Sign In
+              </Link>
             </li>
           </ul>
         </div>
         <div className="section-2">
-          <p className="heading font-bold text-primary">Get Started</p>
+          <p className="heading font-bold text-primary">For Start-ups</p>
           <ul>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Overview
+              <Link href="#" className="">
+                Overview
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              {" "}
-              Equity
+              <Link href="#" className="">
+                Equity
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              AngelList vs. Carta: Cap Tables
+              <Link href="#" className="">
+                AngelList vs. Carta: Cap Tables
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              AngelList vs. Pulley: Cap Tables
+              <Link href="#" className="">
+                AngelList vs. Pulley: Cap Tables
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Equity for Law Firms
+              <Link href="#" className="">
+                Equity for Law Firms
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Raise
+              <Link href="#" className="">
+                Raise
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Offers
+              <Link href="#" className="">
+                Offers
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Roll Up Vehicles™
+              <Link href="#" className="">
+                Roll Up Vehicles™
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              SAFE Cleanups
+              <Link href="#" className="">
+                SAFE Cleanups
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Incorporation
+              <Link href="#" className="">
+                Incorporation
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Pricing
+              <Link href="#" className="">
+                Pricing
+              </Link>
             </li>
           </ul>
         </div>
         <div className="section-3">
-          <p className="heading font-bold text-primary">Get Started</p>
+          <p className="heading font-bold text-primary">For Investors</p>
           <ul>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Rolling Funds®
+              <Link href="#" className="">
+                Rolling Funds®
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Venture Funds
+              <Link href="#" className="">
+                Venture Funds
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Syndicates
+              <Link href="#" className="">
+                Syndicates
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Wishlist
+              <Link href="#" className="">
+                Wishlist
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Rolling Funds® Fees Breakdown
+              <Link href="#" className="">
+                Rolling Funds® Fees Breakdown
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Demo Day Funds
+              <Link href="#" className="">
+                Demo Day Funds
+              </Link>
             </li>
           </ul>
         </div>
         <div className="section-4">
-          <p className="heading font-bold text-primary">Get Started</p>
+          <p className="heading font-bold text-primary">For FundManagers</p>
           <ul>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Rolling Funds®
+              <Link href="#" className="">
+                Rolling Funds®
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Venture Funds
+              <Link href="#" className="">
+                Venture Funds
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Syndicates
+              <Link href="#" className="">
+                Syndicates
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Pricing
+              <Link href="#" className="">
+                Pricing
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Networked banking
+              <Link href="#" className="">
+                Networked banking
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Fund Cost Calculator
+              <Link href="#" className="">
+                Fund Cost Calculator
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              VC Fund Performance Calculator
+              <Link href="#" className="">
+                VC Fund Performance Calculator
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Scout Funds
+              <Link href="#" className="">
+                Scout Funds
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              AngelList vs. Carta: Fund Management
+              <Link href="#" className="">
+                AngelList vs. Carta: Fund Management
+              </Link>
             </li>
           </ul>
         </div>
         <div className="section-5">
-          <p className="heading font-bold text-primary">Get Started</p>
+          <p className="heading font-bold text-primary">Resources</p>
           <ul>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Partnerships
+              <Link href="#" className="">
+                Partnerships
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Blog
+              <Link href="#" className="">
+                Blog
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Help Center
+              <Link href="#" className="">
+                Help Center
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Education Center
+              <Link href="#" className="">
+                Education Center
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              About us
+              <Link href="#" className="">
+                About us
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Careers
+              <Link href="#" className="">
+                Careers
+              </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
-              Form CRS
+              <Link href="#" className="">
+                Form CRS
+              </Link>
             </li>
           </ul>
         </div>
@@ -178,10 +249,10 @@ function Footer() {
           for such product, service or particular investment opportunity and may
           differ materially from those presented in this presentation. Such
           terms are subject to change without notice. For more information on
-          AngelList and its products and services, please{" "}
-          <a href="#" className="text-blue-700 underline">
+          AngelList and its products and service
+          <Link href="#" className="text-blue-700 underline">
             see here
-          </a>
+          </Link>
           .
         </p>
         <br />
