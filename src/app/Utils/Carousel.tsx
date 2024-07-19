@@ -1,6 +1,6 @@
 // Carousel.tsx
 import React, { useState, useEffect } from "react";
-import { Slide } from "../../interfaces/slide"; // Adjust the import path as necessary
+import { Slide } from "../interfaces/slide";
 
 interface CarouselProps {
   slides: Slide[];
