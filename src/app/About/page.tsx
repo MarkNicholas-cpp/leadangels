@@ -10,6 +10,11 @@ function About() {
     MemPosition: string;
   }[] = [
     {
+      MemImg:"https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvenkat.98c47c4b.png&w=96&q=75",
+      MemName: "Venkat Reddy",
+      MemPosition: "Director",
+    },
+    {
       MemImg:
         "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkarthik.4fbba4e2.png&w=96&q=75",
       MemName: "Karthik Mukkara",

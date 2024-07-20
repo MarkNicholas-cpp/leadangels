@@ -211,7 +211,7 @@ function Footer() {
           <p className="text-primary">Privacy</p>
           <p className="text-primary">Disclosures</p>
           <p className="text-primary">Cookie Settings</p>
-          <p className="text-primary">© AL Advisors Management Inc.</p>
+          <p className="text-primary">© Lead Invest  Advisors Management Inc.</p>
         </div>
         <div className="flex gap-3">
           <p className="text-primary bg-slate-200 rounded-md w-12 aspect-square flex items-center justify-center font-bold text-lg">

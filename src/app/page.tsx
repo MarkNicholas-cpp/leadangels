@@ -46,10 +46,10 @@ function Home() {
         <div className="md:h-[calc(100vh-96px)] flex items-start md:items-center justify-start p-10 pb-0 md:pt-0 lg:w-3/4 ">
           <div className="flex flex-col gap-4 items-start md:gap-8">
             <GradientButton content={"Explore our 2023 Year in Review"} />
-            <p className="text-6xl md:text-8xl lg:text-8xl dark:text-purple-200 font-angel">
+            <p className="text-6xl md:text-8xl lg:text-8xl dark:text-purple-100 font-angel">
               Welcome to Lead Angle&apos;s Investment Platform
             </p>
-            <p className="text-md md:text-xl dark:text-purple-200 font-angel">
+            <p className="text-md md:text-xl dark:text-purple-100 font-angel">
               Here at Lead Angels we focus on markets where technology,
               innovation, and capital can unlock long-term value and drive
               economic growth.
@@ -186,63 +186,7 @@ function Home() {
           </div>
         </div>
       </ThemeContainer>
-      <ThemeContainer
-        lightTheme="bg-white text-primary text-semibold"
-        darkTheme="dark:bg-[#8A744A] dark:text-[#E0FEE6]"
-        genClasses="py-10 transition-all duration-500 ease-in-out"
-        elementRef={eleref2}
-      >
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10"
-          ref={eleref2}
-        >
-          <div className="max-w-96">
-            <p className="text-xl">By the numbers</p>
-            <p className="text-6xl my-3">Fueling innovation</p>
-            <p className="text-lg text-justify">
-              With more than half of all top-tier VC deals run through the
-              platform, LeadAngles is at the heart of venture investing. This
-              exposure gives LeadAngles the insight to identify gaps in the VC
-              market and build the solutions that bridge them.
-            </p>
-          </div>
-          <div className="flex items-center justify-center flex-col border-t dark:border-[#5D5337]">
-            <p className="text-9xl lg:text-[15rem] ">$124B</p>
-            <p className="text-sm">assets on platform</p>
-          </div>
-          <div className="max-w-96">
-            <Image
-              src="/sanitary.webp"
-              alt="State of U.S. Early-Stage Venture & Startups"
-              width={432}
-              height={216}
-              className="w-full"
-            />
-            <p className="text-lg text-justify">
-              The State of U.S. Early-Stage Venture & Startups: 3Q23
-            </p>
-            <GradientButton content="Data" />
-          </div>
-          <div className="border-t border-b dark:border-[#5D5337] grid grid-cols-2">
-            <div className="p-5 border-b dark:border-[#5D5337]">
-              <p className="text-6xl md:text-8xl">23k+</p>
-              <p className="text-normal">funds and syndicates</p>
-            </div>
-            <div className="p-5 border-b dark:border-[#5D5337]">
-              <p className="text-6xl md:text-8xl">12k+</p>
-              <p className="text-normal">Active Startups</p>
-            </div>
-            <div className="p-5">
-              <p className="text-6xl md:text-8xl">85k+</p>
-              <p className="text-normal">active investors</p>
-            </div>
-            <div className="p-5">
-              <p className="text-6xl md:text-8xl">$8B</p>
-              <p className="text-normal">raised by active startups</p>
-            </div>
-          </div>
-        </div>
-      </ThemeContainer>
+
       <div className="h-screen md:h-[calc(100vh-100px)] box-border">
         <Carousel
           slides={slides}
