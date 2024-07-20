@@ -9,20 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        primary: 'rgb(0,29,33)',
+        primary: 'rgb(26,38,80)',
 
       },
       textColor: {
-        primary: 'rgb(0,29,33)'
+        primary: 'rgb(26,38,80)'
       },
       backgroundImage: {
-        'logo': "url('/logo.png')"
+        'logo': "url('/Lead Invest Logo-1_page-0001.jpg')"
       },
       borderColor: {
-        primary: 'rgb(0,29,33)'
+        primary: 'rgb(26,38,80)'
       },
       colors: {
-        primary: 'rgb(0,29,33)'
+        primary: 'rgb(26,38,80)'
       }
     },
   },

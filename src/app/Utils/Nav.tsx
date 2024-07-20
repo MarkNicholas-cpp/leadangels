@@ -19,7 +19,14 @@ const Nav = () => {
             href="/"
             className="font-bold mr-5 flex items-center justify-center text-2xl"
           >
-            Lead Angels
+            <div className="w-20 overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className="w-full h-full object-cover object-center"
+                src="/Lead Invest Logo-1_page-0001.jpg"
+                alt="logo"
+              />
+            </div>
           </a>
           <nav className="hidden md:flex md:items-center md:gap-3">
             <NavItem navItem="About" url="/About" />

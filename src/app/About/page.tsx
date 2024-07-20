@@ -134,7 +134,7 @@ function About() {
             <div className="flex flex-col items-center gap-10">
               <div className="video aspect-square h-3/4 w-3/4">
                 <video
-                  autoPlay
+                  
                   controls
                   className="w-full h-full"
                   poster="/src/assets/thubnail2.jpg"

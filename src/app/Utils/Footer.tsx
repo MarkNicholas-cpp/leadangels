@@ -34,12 +34,12 @@ function Footer() {
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
               <Link href="#" className="">
-                AngelList vs. Carta: Cap Tables
+                LeadAngle&apos;s vs. Carta: Cap Tables
               </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
               <Link href="#" className="">
-                AngelList vs. Pulley: Cap Tables
+                LeadAngle&apos;s vs. Pulley: Cap Tables
               </Link>
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
@@ -159,7 +159,7 @@ function Footer() {
             </li>
             <li className="sub-headings text-normal text-sm text-primary my-3">
               <Link href="#" className="">
-                AngelList vs. Carta: Fund Management
+                LeadAngle&apos;s vs. Carta: Fund Management
               </Link>
             </li>
           </ul>
@@ -229,9 +229,9 @@ function Footer() {
         <p className="text-primary/70 font-bold">Disclaimer :</p>
         <p className="text-primary/50">
           Assets on platform refers the the amount of money being deployed by
-          fund managers using AngelList’s software. This does not refer to any
-          amount of money being deployed with AngelList’s affiliated exempt
-          reporting adviser, AngelList Advisors, LLC.
+          fund managers using LeadAngle&apos;s software. This does not refer to any
+          amount of money being deployed with LeadAngle&apos;s affiliated exempt
+          reporting adviser, LeadAngle&apos;s Advisors, LLC.
         </p>
         <br />
         <p className="text-primary/50">
@@ -241,7 +241,7 @@ function Footer() {
           shall not constitute or imply an offer of any kind. Any investment
           opportunities and/or products or services shown here will only be
           completed pursuant to formal offering materials, a letter of intent,
-          and/or any other agreements as determined by AngelList containing full
+          and/or any other agreements as determined by LeadAngle&apos;s containing full
           details regarding risks, minimum investment, fees, and expenses of
           such transaction. The terms of any product, service, or particular
           investment opportunity, including size, costs, and other
@@ -249,7 +249,7 @@ function Footer() {
           for such product, service or particular investment opportunity and may
           differ materially from those presented in this presentation. Such
           terms are subject to change without notice. For more information on
-          AngelList and its products and service
+          LeadAngle&apos;s and its products and service
           <Link href="#" className="text-blue-700 underline">
             see here
           </Link>

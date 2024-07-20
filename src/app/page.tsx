@@ -11,13 +11,13 @@ function Home() {
   const slides: Slide[] = [
     {
       carouselText:
-        "One of AngelList’s biggest benefits is its all-in-one software-first approach to admin, legal and tax services.",
+        "One of LeadAngel’s biggest benefits is its all-in-one software-first approach to admin, legal and tax services.",
       carouselSubtitle: "Cindy Bi, GP, CapitalX",
       img: "https://images.unsplash.com/photo-1542396601-dca920ea2807",
     },
     {
       carouselText:
-        "...it was crucial to get moving quickly and AngelList enabled a seamless launch.",
+        "...it was crucial to get moving quickly and LeadAngle enabled a seamless launch.",
       carouselSubtitle: "Nichole Wischoff, GP, Wischoff Ventures",
       img: "https://images.unsplash.com/photo-1542370285-b8eb8317691c",
     },
@@ -47,7 +47,7 @@ function Home() {
           <div className="flex flex-col gap-4 items-start md:gap-8">
             <GradientButton content={"Explore our 2023 Year in Review"} />
             <p className="text-6xl md:text-8xl lg:text-8xl dark:text-purple-200 font-angel">
-              Welcome to Lead Angels Investment Platform
+              Welcome to Lead Angle&apos;s Investment Platform
             </p>
             <p className="text-md md:text-xl dark:text-purple-200 font-angel">
               Here at Lead Angels we focus on markets where technology,
@@ -166,7 +166,7 @@ function Home() {
                   Full Service Fund Management
                 </p>
                 <p className="text-justify md:text-lg text-[#544a2e]">
-                  AngelList’s full service offerings provides access to 50+
+                  LeadAngles full service offerings provides access to 50+
                   services that remove friction from fund management for venture
                   funds, rolling funds, and syndicates.
                 </p>
@@ -201,8 +201,8 @@ function Home() {
             <p className="text-6xl my-3">Fueling innovation</p>
             <p className="text-lg text-justify">
               With more than half of all top-tier VC deals run through the
-              platform, AngelList is at the heart of venture investing. This
-              exposure gives AngelList the insight to identify gaps in the VC
+              platform, LeadAngles is at the heart of venture investing. This
+              exposure gives LeadAngles the insight to identify gaps in the VC
               market and build the solutions that bridge them.
             </p>
           </div>
