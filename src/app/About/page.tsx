@@ -10,26 +10,57 @@ function About() {
     MemPosition: string;
   }[] = [
     {
-      MemImg:"https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvenkat.98c47c4b.png&w=96&q=75",
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsushanto.061bc3d9.png&w=96&q=75",
+      MemName: "Sushanto Mitra",
+      MemPosition: "CEO & Founder",
+    },
+    {
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvenkat.98c47c4b.png&w=96&q=75",
       MemName: "Venkat Reddy",
       MemPosition: "Director",
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkarthik.4fbba4e2.png&w=96&q=75",
-      MemName: "Karthik Mukkara",
-      MemPosition: "Associate - Technology",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdhruv.9b6c5d2c.png&w=96&q=75",
+      MemName: "Dhruv Nath",
+      MemPosition: "Director",
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmartina.96bac9ff.png&w=96&q=75",
-      MemName: "Martina Pereira",
-      MemPosition: "Associate - Administration",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsonia.1f61a10f.png&w=96&q=75",
+      MemName: "Sonia Sahni",
+      MemPosition: "Chief Business Officer",
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdrishti.8addb7d6.png&w=96&q=75",
-      MemName: "Drishti Sodha",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnaveena.666f878f.png&w=96&q=75",
+      MemName: "Navvena Reddy",
+      MemPosition: "Head - Investments",
+    },
+    {
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fankit.efde3558.png&w=96&q=75",
+      MemName: "Ankit Khandelwal",
+      MemPosition: "Head - Investor Relations",
+    },
+    {
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpriyanka.977a647f.png&w=96&q=75",
+      MemName: "Priyanaka Barot",
+      MemPosition: "Manager - Investor Relations",
+    },
+    {
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAtharva.1bee94e9.png&w=96&q=75",
+      MemName: "Atharva Shah",
+      MemPosition: "Manager - Investments",
+    },
+    {
+      MemImg:
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjash.ae5c61a6.png&w=96&q=75",
+      MemName: "Jash Ranawat",
       MemPosition: "Manager - Investments",
     },
     {
@@ -40,51 +71,21 @@ function About() {
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjash.ae5c61a6.png&w=96&q=75",
-      MemName: "Jash Ranawat",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdrishti.8addb7d6.png&w=96&q=75",
+      MemName: "Drishti Sodha",
       MemPosition: "Manager - Investments",
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAtharva.1bee94e9.png&w=96&q=75",
-      MemName: "Atharva Shah",
-      MemPosition: "Manager - Investments",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmartina.96bac9ff.png&w=96&q=75",
+      MemName: "Martina Pereira",
+      MemPosition: "Associate - Administration",
     },
     {
       MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpriyanka.977a647f.png&w=96&q=75",
-      MemName: "Priyanaka Barot",
-      MemPosition: "Manager - Investor Relations",
-    },
-    {
-      MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fankit.efde3558.png&w=96&q=75",
-      MemName: "Ankit Khandelwal",
-      MemPosition: "Head - Investor Relations",
-    },
-    {
-      MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnaveena.666f878f.png&w=96&q=75",
-      MemName: "Navvena Reddy",
-      MemPosition: "Head - Investments",
-    },
-    {
-      MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsonia.1f61a10f.png&w=96&q=75",
-      MemName: "Sonia Sahni",
-      MemPosition: "Chief Business Officer",
-    },
-    {
-      MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdhruv.9b6c5d2c.png&w=96&q=75",
-      MemName: "Dhruv Nath",
-      MemPosition: "Director",
-    },
-    {
-      MemImg:
-        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsushanto.061bc3d9.png&w=96&q=75",
-      MemName: "Sushanto Mitra",
-      MemPosition: "CEO & Founder",
+        "https://laip-verssion-2.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkarthik.4fbba4e2.png&w=96&q=75",
+      MemName: "Karthik Mukkara",
+      MemPosition: "Associate - Technology",
     },
   ];
 
@@ -112,7 +113,7 @@ function About() {
           threshold: 0,
         }}
       >
-        <div className="p-20 box-border" ref={eleref}>
+        <div className="p-5 sm:p-16 box-border" ref={eleref}>
           <p className="text-center text-5xl font-bold  mb-10">Our Story</p>
           <div className="flex flex-col md:flex-row gap-10">
             <div className="flex flex-col items-center gap-10">
@@ -139,7 +140,6 @@ function About() {
             <div className="flex flex-col items-center gap-10">
               <div className="video aspect-square h-3/4 w-3/4">
                 <video
-                  
                   controls
                   className="w-full h-full"
                   poster="/src/assets/thubnail2.jpg"
@@ -163,10 +163,10 @@ function About() {
       {/* ThemeContainer */}
       <div className="bg-gray-50 py-10">
         <div className="flex flex-col items-center justify-center">
-          <p className="text-3xl md:text-5xl font-bold text-primary ">
+          <p className="text-2xl sm:text-3xl md:text-5xl font-bold text-primary ">
             We are a happy, small team
           </p>
-          <p className="w-1/2 md:text-md text-sm text-center">
+          <p className="w-3/4 sm:w-1/2 md:text-md text-sm text-center">
             Meet our dedicated team of seasoned investment professionals,
             committed to delivering exceptional financial solutions and
             personalized client service.
